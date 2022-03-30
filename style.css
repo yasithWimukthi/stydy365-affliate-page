@@ -1,6 +1,11 @@
 /**************************************************************************
                                     join with us section
  **************************************************************************/
+
+html, body {
+    background: #E5E5E5;
+}
+
 .join-section{
     height: 500px;
     background: linear-gradient(45.2deg, #076633 1.08%, rgba(7, 102, 51, 0) 99.02%), url('./assets/join-img.png') no-repeat -120px -100px;
@@ -44,8 +49,32 @@
 
 .info-text{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
+    font-size: 26px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.info-heading{
+    font-family: 'Roboto';;
+    font-weight: bold;
     font-size:24px;
     color: #0E6836;
+}
+
+.info-question{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #90BF3F;
+    margin-top: 25px;
+}
+
+.info-answer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
 }
