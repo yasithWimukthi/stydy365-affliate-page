@@ -78,3 +78,26 @@ html, body {
     font-size: 14px;
     color: #000000;
 }
+
+.benefits-sub-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 16px;
+    color: #000000;
+}
+
+ul.benefits-list {
+    list-style: none;
+}
+
+ul.benefits-list li::before {
+    content: "\2022";
+    color: #3AA935;
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+}
