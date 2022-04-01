@@ -174,10 +174,16 @@ ul.benefits-list li::before {
     align-self: center;
 }
 
-.join-form{
-    height: 60%;
+.join-form-wrapper{
+    height: 100%;
     background: linear-gradient(105.99deg, #3DA948 7.8%, #90BF3F 85.94%);
     box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.04);
+
+}
+
+.join-form-container{
+    position: sticky;
+    top: 0;
 }
 
 /**************************************************************************
@@ -277,4 +283,39 @@ ul.benefits-list li::before {
     position: absolute;
     bottom: 50px;
     right: 20px;
+}
+.comma-1{
+    width: 50px;
+    height: 80px;
+    background-image: url('./assets/comma 1.png');
+}
+
+.comma-2{
+    width: 50px;
+    height: 80px;
+    background-image: url('./assets/comma 2.png');
+}
+
+.comma-3{
+    width: 50px;
+    height: 80px;
+    background-image: url('./assets/comma 3.png');
+}
+
+.comma-4{
+    width: 50px;
+    height: 80px;
+    background-image: url('./assets/comma 4.png');
+}
+
+@media only screen and (min-width:767px) and (max-width:993px) {
+    .free-course-img-container {
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .join-form-container{
+        position: relative;
+    }
 }
