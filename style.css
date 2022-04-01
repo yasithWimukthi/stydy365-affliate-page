@@ -222,3 +222,59 @@ ul.benefits-list li::before {
     background: #1F420C;
     border-radius: 5px 0px 0px 5px;
 }
+
+.user-details-container{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+
+.user-name{
+    margin-bottom: 3px !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.user-occupation{
+    font-size: 14px;
+}
+
+.carousel-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/*.carousel-control-prev,*/
+/*.carousel-control-next{*/
+/*    align-items: flex-start;*/
+/*}*/
+
+/*.carousel-control-prev,*/
+/*.carousel-control-next{*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.controllers-container{*/
+/*    margin-top: 50px !important;*/
+/*}*/
+
+.feedback-carousel{
+    height: 300px;
+}
+.star-container{
+    color: #fff;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+}
