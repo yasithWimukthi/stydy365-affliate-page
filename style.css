@@ -124,7 +124,7 @@ ul.benefits-list li::before {
 }
 
 .awarding-body-section{
-    height : 500px;
+    height : auto;
     background: #FFFFFF;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.09);
 }
@@ -136,4 +136,36 @@ ul.benefits-list li::before {
     font-weight: 900;
     font-size: 20px;
     color: #000000;
+}
+
+.awarding-body-list__item{
+    width: 200px;
+    height: 150px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.awarding-body-list__item:hover{
+    transform: scale(1.05);
+}
+
+.awarding-body-1{
+    width: 160px;
+    height: 85px;
+    align-self: center;
+}
+
+.awarding-body-2{
+    width: 170px;
+    height: 90px;
+    align-self: center;
+}
+
+.awarding-body-3{
+    width: 185px;
+    height: 98px;
+    align-self: center;
 }
