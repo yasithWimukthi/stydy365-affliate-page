@@ -122,3 +122,18 @@ ul.benefits-list li::before {
 .accordion-item button p{
     margin-top:5px;
 }
+
+.awarding-body-section{
+    height : 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.09);
+}
+
+.awarding-body-section__heading{
+    margin: 0 auto;
+    width: fit-content;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    color: #000000;
+}
