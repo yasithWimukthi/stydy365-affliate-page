@@ -6,6 +6,10 @@ html, body {
     background: #E5E5E5;
 }
 
+.join-section-wrapper{
+    --bs-gutter-x: 0 rem !important;
+}
+
 .join-section{
     height: 500px;
     background: linear-gradient(45.2deg, #076633 1.08%, rgba(7, 102, 51, 0) 99.02%), url('./assets/join-img.png') no-repeat -120px -100px;
@@ -168,4 +172,29 @@ ul.benefits-list li::before {
     width: 185px;
     height: 98px;
     align-self: center;
+}
+
+.join-form{
+    height: 60%;
+    background: linear-gradient(105.99deg, #3DA948 7.8%, #90BF3F 85.94%);
+    box-shadow: 0px -4px 16px rgba(0, 0, 0, 0.04);
+}
+
+/**************************************************************************
+                            join with us form
+ **************************************************************************/
+
+.join-form-heading__main{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFCFC;
+}
+
+.join-form-heading__sub{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFCFC;
 }
