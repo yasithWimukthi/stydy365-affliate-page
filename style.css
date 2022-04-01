@@ -101,3 +101,24 @@ ul.benefits-list li::before {
     margin-left: -1em;
     font-size: 20px;
 }
+
+.faq-accordion .accordion-button{
+    background-color: #F3F3F7 !important;
+    border-radius: 5px !important;
+    height: 56px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: revert;
+}
+
+.accordion-item p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.accordion-item button p{
+    margin-top:5px;
+}
