@@ -198,3 +198,27 @@ ul.benefits-list li::before {
     font-size: 16px;
     color: #FFFCFC;
 }
+
+.free-course-img-container{
+    height: 260px;
+}
+
+.free-course-img-container img{
+    width: 100%;
+}
+
+/*.free-course-container{*/
+/*    flex-direction: column;*/
+/*}*/
+
+.free-course-form{
+    height: 600px;
+    background: #0E6836;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.feedback-container{
+    height: 600px;
+    background: #1F420C;
+    border-radius: 5px 0px 0px 5px;
+}
